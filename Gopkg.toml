@@ -1,0 +1,19 @@
+[metadata.package]
+	name = "notes"
+	description = "notes is an example of how to structure a Go app/api"
+	homepage = "https://github.com/jamescun/notes"
+	contributors = [
+		{ name = "James Cunningham", email = "me@jamescun.com" },
+	]
+
+[[constraint]]
+name = "github.com/rs/zerolog"
+version = "~v1.8.0"
+
+[[constraint]]
+name = "github.com/go-chi/chi"
+version = "~v3.3.0"
+
+[[constraint]]
+name = "github.com/lib/pq"
+revision = "90697d60dd844d5ef6ff15135d0203f65d2f53b8"
